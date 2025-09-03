@@ -1,0 +1,25 @@
+# Node / Hardhat
+node_modules/
+artifacts/
+cache/
+typechain-types/
+coverage/
+coverage.json
+*.tsbuildinfo
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.parcel-cache/
+frontend/.next/
+frontend/.vite/
+frontend/.DS_Store
+
+# Env & secrets (DO NOT COMMIT)
+.env
+frontend/.env
+secret.json
+
+# Local files you may not want in git (optional)
+deployed.json
+.DS_Store
