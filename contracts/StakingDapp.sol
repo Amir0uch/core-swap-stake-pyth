@@ -5,14 +5,7 @@ import "@openzeppelin/contracts/token/ERC20/IERC20.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
-/**
- * Staking pays rewards in the SAME ERC-20 (USDT) held by this contract.
- * Owner can update the per-second reward rate (APR-like), no redeploy needed.
- *
- * reward = amount * elapsedSeconds * rewardRatePerSecond / 1e18
- *
- * IMPORTANT: Keep enough USDT in this contract to cover claims/unstakes.
- */
+
 contract StakingDapp is Ownable {
     using SafeERC20 for IERC20;
 
