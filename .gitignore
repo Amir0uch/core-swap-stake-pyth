@@ -23,3 +23,7 @@ secret.json
 # Local files you may not want in git (optional)
 deployed.json
 .DS_Store
+
+.env
+.env.*
+frontend/.env.local
